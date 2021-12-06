@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="projekatTests.ProjekatTests">
+        <methods>
+          <include name="click"/>
+          <include name="pageSetUp"/>
+          <include name="userProfileInBookStoreApplicationAfterBookAdded"/>
+          <include name="moveSliderPointer"/>
+          <include name="rightClick"/>
+          <include name="selectDownloads"/>
+          <include name="createNewUserForBookStoreApplication"/>
+          <include name="fillingOutTheStudentRegistrationForm"/>
+          <include name="selectDesktop"/>
+          <include name="itemsOnElementsCardAreClickable"/>
+          <include name="cardsOnToolsQaHomePageAreClickable"/>
+          <include name="dataEnteredInTextBoxFormBeforeAndAfterSubmit"/>
+          <include name="selectHomeFromCheckBoxItem"/>
+          <include name="beforeClass"/>
+          <include name="clickButtons"/>
+          <include name="userAddedBookInHisCollection"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="selectDocuments"/>
+          <include name="usersLoginAfterRegistration"/>
+        </methods>
+      </class> <!-- projekatTests.ProjekatTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
